@@ -16,7 +16,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://pdfv-ai-chatbot-hosttest.vercel.app/"],  # frontend origin
+    allow_origins=["https://pdfv-ai-chatbot-hosttest.vercel.app"],  # frontend origin
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
