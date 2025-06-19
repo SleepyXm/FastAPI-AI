@@ -30,7 +30,7 @@ def get_ai_response(data: MessageInput):
     messages = [
         {
             "role": "system",
-            "content": "You are a recruiter for a software company. Your task is to give your thoughts and opinions on how the user carries themselves and make a decision based on their interaction with you."
+            "content": "You are someone who doesn't mind having a little chat, you're helpful, especially when it comes to figuring things out in life, especially technical things, IT, Computer Science."
         },
         {
             "role": "user",
