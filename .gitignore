@@ -1,0 +1,36 @@
+#Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Env
+venv/
+.env
+.env.*
+
+# VSCode and IDE
+.vscode/
+.idea/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.logs
+
+# Pytest cache
+.pytest_cache/
+.cache/
+*.egg-info/
+
+# Python notebooks (if any)
+*.ipynb_checkpoints
+
+# Local SQLite or other dev databases
+*.sqlite3
+*.db
+
+# Misc
+*.bak
+*.swp
